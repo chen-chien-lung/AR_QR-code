@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632CF79121C0A87000DC9687 /* PopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CF79021C0A87000DC9687 /* PopUpTableViewController.swift */; };
+		632CF79321C1344E00DC9687 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CF79221C1344E00DC9687 /* RecordTableViewController.swift */; };
+		632CF7B921C14F4800DC9687 /* QRRecordModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 632CF7B721C14F4800DC9687 /* QRRecordModel.xcdatamodeld */; };
+		632CF7BF21C2A36200DC9687 /* RecordManageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632CF7BE21C2A36200DC9687 /* RecordManageContext.swift */; };
+		634BC35522BB2C6C00549B43 /* ShowWebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634BC35422BB2C6C00549B43 /* ShowWebController.swift */; };
+		638A7A6922BA84BA00E85FDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638A7A6822BA84BA00E85FDC /* WebKit.framework */; };
+		639F75CD22C12EDE0073B42E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 639F75CC22C12EDE0073B42E /* art.scnassets */; };
+		63C27E5E21D1F6DF00269E18 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C27E5D21D1F6DF00269E18 /* AboutTableViewController.swift */; };
+		63D424472186D396000C73A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D424462186D396000C73A0 /* AppDelegate.swift */; };
+		63D424492186D396000C73A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D424482186D396000C73A0 /* ViewController.swift */; };
+		63D4244C2186D396000C73A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4244A2186D396000C73A0 /* Main.storyboard */; };
+		63D4244E2186D397000C73A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4244D2186D397000C73A0 /* Assets.xcassets */; };
+		63D424512186D397000C73A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D4244F2186D397000C73A0 /* LaunchScreen.storyboard */; };
+		6D9D83B4C17FE7496C10EA4F /* Pods_QR_ARkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D29FC701A0334C41E911A4 /* Pods_QR_ARkit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08D29FC701A0334C41E911A4 /* Pods_QR_ARkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_ARkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		632CF79021C0A87000DC9687 /* PopUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpTableViewController.swift; sourceTree = "<group>"; };
+		632CF79221C1344E00DC9687 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		632CF7B821C14F4800DC9687 /* QRRecordModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRRecordModel.xcdatamodel; sourceTree = "<group>"; };
+		632CF7BE21C2A36200DC9687 /* RecordManageContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManageContext.swift; sourceTree = "<group>"; };
+		634BC35422BB2C6C00549B43 /* ShowWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWebController.swift; sourceTree = "<group>"; };
+		638A7A6822BA84BA00E85FDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		639F75CC22C12EDE0073B42E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		63C27E5D21D1F6DF00269E18 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		63D424432186D396000C73A0 /* QR_ARkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR_ARkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D424462186D396000C73A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D424482186D396000C73A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D4244B2186D396000C73A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D4244D2186D397000C73A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D424502186D397000C73A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D424522186D397000C73A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B21EB38C56EBEC845F011149 /* Pods-QR_ARkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR_ARkit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR_ARkit/Pods-QR_ARkit.debug.xcconfig"; sourceTree = "<group>"; };
+		C328AECBED513B1C5882B45D /* Pods-QR_ARkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR_ARkit.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR_ARkit/Pods-QR_ARkit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D424402186D396000C73A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638A7A6922BA84BA00E85FDC /* WebKit.framework in Frameworks */,
+				6D9D83B4C17FE7496C10EA4F /* Pods_QR_ARkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A8749981FB5F578BBE248A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638A7A6822BA84BA00E85FDC /* WebKit.framework */,
+				08D29FC701A0334C41E911A4 /* Pods_QR_ARkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D4243A2186D396000C73A0 = {
+			isa = PBXGroup;
+			children = (
+				63D424452186D396000C73A0 /* QR_ARkit */,
+				63D424442186D396000C73A0 /* Products */,
+				CFBD77938991739BCF54E68F /* Pods */,
+				17A8749981FB5F578BBE248A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63D424442186D396000C73A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D424432186D396000C73A0 /* QR_ARkit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D424452186D396000C73A0 /* QR_ARkit */ = {
+			isa = PBXGroup;
+			children = (
+				63D424462186D396000C73A0 /* AppDelegate.swift */,
+				63D424482186D396000C73A0 /* ViewController.swift */,
+				639F75CC22C12EDE0073B42E /* art.scnassets */,
+				634BC35422BB2C6C00549B43 /* ShowWebController.swift */,
+				63D4244A2186D396000C73A0 /* Main.storyboard */,
+				63D4244D2186D397000C73A0 /* Assets.xcassets */,
+				63D4244F2186D397000C73A0 /* LaunchScreen.storyboard */,
+				63D424522186D397000C73A0 /* Info.plist */,
+				632CF79021C0A87000DC9687 /* PopUpTableViewController.swift */,
+				632CF79221C1344E00DC9687 /* RecordTableViewController.swift */,
+				632CF7B721C14F4800DC9687 /* QRRecordModel.xcdatamodeld */,
+				632CF7BE21C2A36200DC9687 /* RecordManageContext.swift */,
+				63C27E5D21D1F6DF00269E18 /* AboutTableViewController.swift */,
+			);
+			path = QR_ARkit;
+			sourceTree = "<group>";
+		};
+		CFBD77938991739BCF54E68F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B21EB38C56EBEC845F011149 /* Pods-QR_ARkit.debug.xcconfig */,
+				C328AECBED513B1C5882B45D /* Pods-QR_ARkit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D424422186D396000C73A0 /* QR_ARkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D424552186D397000C73A0 /* Build configuration list for PBXNativeTarget "QR_ARkit" */;
+			buildPhases = (
+				DE61079AAE0211C5332767FB /* [CP] Check Pods Manifest.lock */,
+				63D4243F2186D396000C73A0 /* Sources */,
+				63D424402186D396000C73A0 /* Frameworks */,
+				63D424412186D396000C73A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QR_ARkit;
+			productName = QR_ARkit;
+			productReference = 63D424432186D396000C73A0 /* QR_ARkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D4243B2186D396000C73A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Joe Chen";
+				TargetAttributes = {
+					63D424422186D396000C73A0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 63D4243E2186D396000C73A0 /* Build configuration list for PBXProject "QR_ARkit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D4243A2186D396000C73A0;
+			productRefGroup = 63D424442186D396000C73A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D424422186D396000C73A0 /* QR_ARkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D424412186D396000C73A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D424512186D397000C73A0 /* LaunchScreen.storyboard in Resources */,
+				639F75CD22C12EDE0073B42E /* art.scnassets in Resources */,
+				63D4244E2186D397000C73A0 /* Assets.xcassets in Resources */,
+				63D4244C2186D396000C73A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE61079AAE0211C5332767FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR_ARkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D4243F2186D396000C73A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632CF7B921C14F4800DC9687 /* QRRecordModel.xcdatamodeld in Sources */,
+				632CF79321C1344E00DC9687 /* RecordTableViewController.swift in Sources */,
+				63D424492186D396000C73A0 /* ViewController.swift in Sources */,
+				632CF7BF21C2A36200DC9687 /* RecordManageContext.swift in Sources */,
+				63C27E5E21D1F6DF00269E18 /* AboutTableViewController.swift in Sources */,
+				634BC35522BB2C6C00549B43 /* ShowWebController.swift in Sources */,
+				632CF79121C0A87000DC9687 /* PopUpTableViewController.swift in Sources */,
+				63D424472186D396000C73A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63D4244A2186D396000C73A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D4244B2186D396000C73A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D4244F2186D397000C73A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D424502186D397000C73A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D424532186D397000C73A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D424542186D397000C73A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D424562186D397000C73A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21EB38C56EBEC845F011149 /* Pods-QR_ARkit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKH4PWKNJ2;
+				INFOPLIST_FILE = QR_ARkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqrassiatant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63D424572186D397000C73A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C328AECBED513B1C5882B45D /* Pods-QR_ARkit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKH4PWKNJ2;
+				INFOPLIST_FILE = QR_ARkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqrassiatant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D4243E2186D396000C73A0 /* Build configuration list for PBXProject "QR_ARkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D424532186D397000C73A0 /* Debug */,
+				63D424542186D397000C73A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D424552186D397000C73A0 /* Build configuration list for PBXNativeTarget "QR_ARkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D424562186D397000C73A0 /* Debug */,
+				63D424572186D397000C73A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		632CF7B721C14F4800DC9687 /* QRRecordModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				632CF7B821C14F4800DC9687 /* QRRecordModel.xcdatamodel */,
+			);
+			currentVersion = 632CF7B821C14F4800DC9687 /* QRRecordModel.xcdatamodel */;
+			path = QRRecordModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63D4243B2186D396000C73A0 /* Project object */;
+}
